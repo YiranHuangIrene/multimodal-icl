@@ -1,0 +1,37 @@
+# Caches and venv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Notebooks and SLURM-script generators (do not ship)
+*.ipynb
+script/
+
+# Local artifacts (none should ship)
+out_torch/
+outs_torch/
+outs_torch_rebuttal/
+outs_torch_icml_rebuttal/
+outs_encoder_*/
+slurm_logs/
+wandb/
+*.pt
+*.npz
+*.png
+*.log
+
+# Datasets
+omniglot/
+omniglot-py/
+mini-imagenet/
+data/
+
+# Agent / planning artifacts
+.cursor/
+.claude/
+CLAUDE.md
+icml2026_reviews.json
+research.md
+new_experiment.md
+paper/
