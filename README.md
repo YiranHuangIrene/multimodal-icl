@@ -1,11 +1,12 @@
 # Dissecting Multimodal In-Context Learning: Modality Asymmetries and Circuit Dynamics in Modern Transformers
 
 Code for the ICML 2026 **SPOTLIGHT** paper.
-**Yiran Huang, Karsten Roth, Quentin Bouniot, Wenjia Xu, Zeynep Akata.**
+
+Authors: **Yiran Huang, Karsten Roth, Quentin Bouniot, Wenjia Xu, Zeynep Akata.**
 
 This repository contains a controlled, mechanistic study of how
 transformer-based decoders acquire in-context learning (ICL) capabilities in
-both unimodal and multimodal settings. The codebase implements a three-stage
+both unimodal and multimodal settings and how these findings generalize to real MLLMs. The codebase implements a three-stage
 training pipeline on synthetic Gaussian-mixture data (and, optionally, on
 Omniglot / Mini-ImageNet), together with the progress-measure metrics used in
 the paper (PHStrength, IHStrength, TILA, TIIA, TLA).
