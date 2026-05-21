@@ -112,11 +112,11 @@ Qwen2.5-VL-3B-Instruct / Qwen2.5-3B; downstream scripts (`mllm_knockout.py`,
 ## Citation
 
 ```bibtex
-@inproceedings{huang2026dissecting,
-  title     = {Dissecting Multimodal In-Context Learning: Modality Asymmetries and Circuit Dynamics in Modern Transformers},
-  author    = {Huang, Yiran and Roth, Karsten and Bouniot, Quentin and Xu, Wenjia and Akata, Zeynep},
-  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
-  year      = {2026},
+@article{huang2026dissecting,
+  title={Dissecting Multimodal In-Context Learning: Modality Asymmetries and Circuit Dynamics in modern Transformers},
+  author={Huang, Yiran and Roth, Karsten and Bouniot, Quentin and Xu, Wenjia and Akata, Zeynep},
+  journal={arXiv preprint arXiv:2601.20796},
+  year={2026}
 }
 ```
 
